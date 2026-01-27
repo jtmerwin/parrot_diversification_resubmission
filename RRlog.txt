@@ -1,0 +1,7 @@
+Initial settings DONE
+Variable 1 - optimization started
+Variable 2 - optimization started
+Variable 2 - optimization DONE
+Variable 2 - rates and aces estimation DONE
+Variable 1 - optimization DONE
+Variable 1 - rates and aces estimation DONE

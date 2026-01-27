@@ -1,0 +1,22 @@
+#code by Elkin Tenorio
+#INstalation
+
+using Pkg
+
+Pkg.add("PANDA")
+
+using PANDA
+
+my_tree = load_tree(tree_path)
+
+output = infer_ClaDS(my_tree, f = 0.94)
+
+#plot_CladsOutput(output; ln=true, show_labels = true, options = "type = 'fan'", options = "cex=0.1")
+
+plot_CladsOutput(output, options = "type = 'fan'")
+
+plot_CladsOutput(output, method = "DTT")
+
+plot_CladsOutput(output, method = "RTT")
+
+save_ClaDS_in_R(output, "~/Desktop/Emberizoidea.Rdata")
