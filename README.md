@@ -1,9 +1,9 @@
 # parrot_diversification_resubmission
 
 List of analyses in methods
-Updated by JTM on 20.January.2026
+Updated by XXX on 20.January.2026
 
-1) Estimation of div rates (ELKIN TENORIO)
+1) Estimation of div rates
 	This script runs in JULIA and estimates
 	diversification rates using CLADS.
 
@@ -25,7 +25,7 @@ Updated by JTM on 20.January.2026
 		distances between male and female individuals for each patch and each taxon.
 		Also plots this data as a tile matrix.
 
-3) Niche estimation (ELKIN TENORIO)
+3) Niche estimation
 	3_NicheEstimations.R
 		This script estimates environmental Niches from eBird data.
 
@@ -47,7 +47,7 @@ Updated by JTM on 20.January.2026
 		Then it runs multivariate PGLS models to test the relationship of climate and div. rates
 		rates on morphological and plumage color evolution. 
 	
-7) MUSSCRAT (BRIAN)
+7) MUSSCRAT
 	musscrat_commands-24-may-2024.txt
 		Shell scripts to run MUSSCRAT on linux with associated nexus files
 
